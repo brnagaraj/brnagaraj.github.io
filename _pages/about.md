@@ -4,8 +4,16 @@ title: About
 image: '/images/pages/1.jpg'
 ---
 
-You love minimalism, want to be productive focusing only on the important things and want to take jekyll to the next level, Nubia is designed for you. Nubia focus on showing your content in a clean and simple way, focus on images, typography, and white space.
+Hi! I'm **Nagaraj BR,**
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm employed as a Test Engineer in the PLINTRON Mobility Solutions for the past 1.5+ years, based in Chennai. Where I deal with Web application testing i.e Functional Testing, API Testing, User Interface Testing with Responsiveness, and Mobile App Testing.
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+I exhilarate to learn and update myself in the domain where I work.I decide to record all my gained and gaining knowledge in Software Testing on another hand to spread the same to others in simplest form as much as I can.
+
+> ‘Tell me and I forget. Teach me and I remember. Involve me and I learn.’ –Benjamin Franklin
+
+Above mentioned quote strongly preaches that belief in Learning moreover Working on the same which we learned only makes a man as Savvy.
+
+Stay Savvy!
+
+Happy Learning!
