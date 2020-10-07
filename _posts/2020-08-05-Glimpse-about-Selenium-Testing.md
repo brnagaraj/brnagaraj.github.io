@@ -6,15 +6,20 @@ tags: [testing, automation, selenium]
 image: '/images/posts/1-1.jpg'
 ---
 
-Hello guys*,* are you finding how to create a testing script to test your website*.* If yes, you landed a perfect page. When it comes *to* testing selenium plays the Lead role as well. Here we are going to explore the basic methods in selenium with a suitable Definition and a snippet of code opt one for each *method*. Before that have some brush-up sessions with Java and OOPS concepts.
+Hello guys*,* are you finding how to create a testing script to test your website*.* If yes, you landed a perfect page. When it comes to testing selenium plays the Lead role as well. Here we are going to explore the basic methods in selenium with a suitable Definition and a snippet of code opt one for each method. Before that have some brush-up sessions with Java and OOPS concepts.
 
-This blog is recommended for one who takes a look at selenium basics and proceeds with their test cases or test suits for their websites. When you drive in this thriving *world, I* think this should be a better choice.
+This blog is recommended for one who is ready to know testing ideas with different types of tools and the importance of software testing to increase the quality of the product. I think this should be a better choice to learn different phase in software testing.
 
 **What is What?** is the basic question for everyone when you kick off on any topic. Well! Before bouncing into 'Selenium' and its 'Methods', there should be a basic understanding of Selenium and its behavior. So here we go for a definition of selenium.
 
 **Selenium :**
 
-Selenium is a framework that is used to test your web application. It was developed by Jason Huggins in 2004. This will be the simplest definition for selenium I guess and helps too.
+Selenium is a framework that is used to test your web application. It was developed by Jason Huggins in 2004. It also provides a interface which lets you write test scripts in programming languages like Ruby, Java, NodeJS, PHP, Perl, Python, and C#, among others. Selenium is a bunch of tool with different behaviour. Here the list of tools in selenium.
+
+- Selenium Integrated Development Environment (IDE)
+- Selenium Remote Control (RC)
+- WebDriver
+- Selenium Grid
 
 **Why Selenium :**
 
@@ -24,11 +29,43 @@ Even though there are many testing tools like HP Unified Functional Testing, Apa
 
 When you enter into selenium the 'Locator' methods are the heart of selenium. So by scrolling down we will figure out the Locator methods with prompt definition and snip of code to explore the methods appropriately.
 
+**Packages in Selenium**
+
+The package mechanism is to enclose the group of Classes and Sub Classes. These packages are used to avoid Conflicts. When you enter into selenium the package import way differ from one browser to another. List of ways to import the package as per browsers are 
+
+**Chrome** **:**
+
+```java
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+```
+
+Firefox :
+
+```java
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+```
+
+Safari :
+
+```java
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.safari.SafariDriver;
+```
+
+Opera :
+
+```java
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.opera.OperaDriver;
+```
+
 **Locators**
 
 **Definition** 
 
-Locators are exactly a command which handles the UI elements to perform *actions* on the website. Identifying the appropriate Element is a challenging step to take. Henceforward the Selenium provided with a different type of method to approach.
+Locators are exactly a command which handles the UI elements to perform actions on the website. Identifying the appropriate Element is a challenging step to take. Henceforward the Selenium provided with a different type of method to approach.
 
 **List of Selenium methods :**
 
@@ -122,9 +159,10 @@ Xpath is one of the most important locators in Selenium. This locator mainly dea
 
 **To get Xpath from chrome :**
 
-To open the Console in the Chrome and refer below given picture to select the XPath from the Chrome.
+To open the Console in the Chrome by using inspect option and refer below given picture to select the XPath from the Chrome.
 
-<img src="images/pages/Xpath_selection.png">
+<img src="\images\pages\Xpath_selection.png">
+
 
 **Selenium Snip :**
 
@@ -140,9 +178,14 @@ The snip will perform the Click action on the given XPath locator as scripted. B
 CSS Selector is quite similar to the XPath locator, but both locators can be used where ever in the script it completely depends on their convenience. CSS Selector may be a bit faster when compared to XPath.
 
 **To get CSS Selector from Chrome**
+
+<img src="\images\pages\CSSSelector.png">
+
 **Selenium Snip :**
 
 ```java
 WebDriver driver=new ChromeDriver();
 driver.findElement(By.cssSelector(“#pass”)).sendKeys("Abc@gmail.com")
 ```
+
+This above snip will perform an action by sending the email-id as 'Abc@gmail.com' using the CSSSelector.

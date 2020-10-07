@@ -9,7 +9,7 @@
   <title>Snoop into Selenium</title>
   <meta name='description' content="Hello guys, are you finding how to create a testing script to test your website. If yes, you landed a perfect page. When it comes to testing selenium plays t...">
   <link rel='canonical' href="https://brnagaraj.github.io//2020/08/05/Glimpse-about-Selenium-Testing/">
-  <link rel='alternate' type='application/rss+xml' title='Software Testing | Selenium' href="https://brnagaraj.github.io//feed.xml">
+  <link rel='alternate' type='application/rss+xml' title='Software Testing Thoughts & Stories' href="https://brnagaraj.github.io//feed.xml">
 
   <style>
     
@@ -37,7 +37,7 @@
     <div class='o-grid__col o-grid__col--3-4-s o-grid__col--4-4-m'>
       <div class='c-logo'>
         
-          <a class='c-logo__link' href='/'>Software Testing | Selenium</a>
+          <a class='c-logo__link' href='/'>Software Testing Thoughts & Stories</a>
         
       </div>
     </div>
@@ -62,7 +62,7 @@
   
     
       <li class='c-nav__item'>
-        <a href='/about.html' class='c-nav__link'>About</a>
+        <a href='/_pages/about/' class='c-nav__link'>About</a>
       </li>
     
   
@@ -158,15 +158,22 @@
       <article class='c-post'>
 
         <div class='c-content'>
-          <p>Hello guys<em>,</em> are you finding how to create a testing script to test your website<em>.</em> If yes, you landed a perfect page. When it comes <em>to</em> testing selenium plays the Lead role as well. Here we are going to explore the basic methods in selenium with a suitable Definition and a snippet of code opt one for each <em>method</em>. Before that have some brush-up sessions with Java and OOPS concepts.</p>
+          <p>Hello guys<em>,</em> are you finding how to create a testing script to test your website<em>.</em> If yes, you landed a perfect page. When it comes to testing selenium plays the Lead role as well. Here we are going to explore the basic methods in selenium with a suitable Definition and a snippet of code opt one for each method. Before that have some brush-up sessions with Java and OOPS concepts.</p>
 
-<p>This blog is recommended for one who takes a look at selenium basics and proceeds with their test cases or test suits for their websites. When you drive in this thriving <em>world, I</em> think this should be a better choice.</p>
+<p>This blog is recommended for one who is ready to know testing ideas with different types of tools and the importance of software testing to increase the quality of the product. I think this should be a better choice to learn different phase in software testing.</p>
 
 <p><strong>What is What?</strong> is the basic question for everyone when you kick off on any topic. Well! Before bouncing into ‘Selenium’ and its ‘Methods’, there should be a basic understanding of Selenium and its behavior. So here we go for a definition of selenium.</p>
 
 <p><strong>Selenium :</strong></p>
 
-<p>Selenium is a framework that is used to test your web application. It was developed by Jason Huggins in 2004. This will be the simplest definition for selenium I guess and helps too.</p>
+<p>Selenium is a framework that is used to test your web application. It was developed by Jason Huggins in 2004. It also provides a interface which lets you write test scripts in programming languages like Ruby, Java, NodeJS, PHP, Perl, Python, and C#, among others. Selenium is a bunch of tool with different behaviour. Here the list of tools in selenium.</p>
+
+<ul>
+  <li>Selenium Integrated Development Environment (IDE)</li>
+  <li>Selenium Remote Control (RC)</li>
+  <li>WebDriver</li>
+  <li>Selenium Grid</li>
+</ul>
 
 <p><strong>Why Selenium :</strong></p>
 
@@ -176,11 +183,43 @@
 
 <p>When you enter into selenium the ‘Locator’ methods are the heart of selenium. So by scrolling down we will figure out the Locator methods with prompt definition and snip of code to explore the methods appropriately.</p>
 
+<p><strong>Packages in Selenium</strong></p>
+
+<p>The package mechanism is to enclose the group of Classes and Sub Classes. These packages are used to avoid Conflicts. When you enter into selenium the package import way differ from one browser to another. List of ways to import the package as per browsers are</p>
+
+<p><strong>Chrome</strong> <strong>:</strong></p>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">org.openqa.selenium.WebDriver</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.openqa.selenium.chrome.ChromeDriver</span><span class="o">;</span>
+</code></pre>
+</div>
+
+<p>Firefox :</p>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">org.openqa.selenium.WebDriver</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.openqa.selenium.firefox.FirefoxDriver</span><span class="o">;</span>
+</code></pre>
+</div>
+
+<p>Safari :</p>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">org.openqa.selenium.WebDriver</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.openqa.selenium.safari.SafariDriver</span><span class="o">;</span>
+</code></pre>
+</div>
+
+<p>Opera :</p>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">org.openqa.selenium.WebDriver</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.openqa.selenium.opera.OperaDriver</span><span class="o">;</span>
+</code></pre>
+</div>
+
 <p><strong>Locators</strong></p>
 
 <p><strong>Definition</strong> </p>
 
-<p>Locators are exactly a command which handles the UI elements to perform <em>actions</em> on the website. Identifying the appropriate Element is a challenging step to take. Henceforward the Selenium provided with a different type of method to approach.</p>
+<p>Locators are exactly a command which handles the UI elements to perform actions on the website. Identifying the appropriate Element is a challenging step to take. Henceforward the Selenium provided with a different type of method to approach.</p>
 
 <p><strong>List of Selenium methods :</strong></p>
 
@@ -276,9 +315,9 @@
 
 <p><strong>To get Xpath from chrome :</strong></p>
 
-<p>To open the Console in the Chrome and refer below given picture to select the XPath from the Chrome.</p>
+<p>To open the Console in the Chrome by using inspect option and refer below given picture to select the XPath from the Chrome.</p>
 
-<p><img src="images/pages/Xpath_selection.png" /></p>
+<p><img src="\images\pages\Xpath_selection.png" /></p>
 
 <p><strong>Selenium Snip :</strong></p>
 
@@ -293,13 +332,18 @@
 
 <p>CSS Selector is quite similar to the XPath locator, but both locators can be used where ever in the script it completely depends on their convenience. CSS Selector may be a bit faster when compared to XPath.</p>
 
-<p><strong>To get CSS Selector from Chrome</strong>
-<strong>Selenium Snip :</strong></p>
+<p><strong>To get CSS Selector from Chrome</strong></p>
+
+<p><img src="\images\pages\CSSSelector.png" /></p>
+
+<p><strong>Selenium Snip :</strong></p>
 
 <div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="n">WebDriver</span> <span class="n">driver</span><span class="o">=</span><span class="k">new</span> <span class="n">ChromeDriver</span><span class="o">();</span>
 <span class="n">driver</span><span class="o">.</span><span class="na">findElement</span><span class="o">(</span><span class="n">By</span><span class="o">.</span><span class="na">cssSelector</span><span class="o">(</span><span class="err">“#</span><span class="n">pass</span><span class="err">”</span><span class="o">)).</span><span class="na">sendKeys</span><span class="o">(</span><span class="s">"Abc@gmail.com"</span><span class="o">)</span>
 </code></pre>
 </div>
+
+<p>This above snip will perform an action by sending the email-id as ‘Abc@gmail.com’ using the CSSSelector.</p>
 
         </div>
 
@@ -396,7 +440,7 @@
       Nagaraj BR
     </h3>
     
-      <p class='c-widget-author__bio'>Author of this blog & Software Development Tester</p>
+      <p class='c-widget-author__bio'>Author of this blog & Software Test Engineer</p>
     
 
     <div class='c-author__links'>
@@ -485,7 +529,7 @@
   
     
       <li class='c-nav__item'>
-        <a href='/about.html' class='c-nav__link'>About</a>
+        <a href='/_pages/about/' class='c-nav__link'>About</a>
       </li>
     
   
@@ -535,18 +579,12 @@
 
           <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m'>
             <div class='u-font-tiny c-footer__copyright'>
-              2020 Software Testing | Selenium
+              2020 Software Testing Thoughts & Stories
             </div>
           </div>
 
           <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m'>
             <ul class='c-social-icons o-plain-list'>
-  
-    <li>
-      <a href='' target='_blank'>
-        <span class='c-social-nav__icon' data-icon='ei-sc-facebook' data-size='s'></span>
-      </a>
-    </li>
   
   
   

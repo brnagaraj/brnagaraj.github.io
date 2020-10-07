@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software Testing | Selenium</title>
-    <description>Thoughts, Stories and Testing Ideas</description>
+    <title>Software Testing Thoughts &amp; Stories</title>
+    <description>Testing Ideas</description>
     <link>https://brnagaraj.github.io//</link>
     <atom:link href="https://brnagaraj.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Sep 2020 21:26:57 +0530</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2020 21:26:57 +0530</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2020 11:50:31 +0530</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2020 11:50:31 +0530</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
 
     
       <item>
         <title>Snoop into Selenium</title>
-        <description>&lt;p&gt;Hello guys&lt;em&gt;,&lt;/em&gt; are you finding how to create a testing script to test your website&lt;em&gt;.&lt;/em&gt; If yes, you landed a perfect page. When it comes &lt;em&gt;to&lt;/em&gt; testing selenium plays the Lead role as well. Here we are going to explore the basic methods in selenium with a suitable Definition and a snippet of code opt one for each &lt;em&gt;method&lt;/em&gt;. Before that have some brush-up sessions with Java and OOPS concepts.&lt;/p&gt;
+        <description>&lt;p&gt;Hello guys&lt;em&gt;,&lt;/em&gt; are you finding how to create a testing script to test your website&lt;em&gt;.&lt;/em&gt; If yes, you landed a perfect page. When it comes to testing selenium plays the Lead role as well. Here we are going to explore the basic methods in selenium with a suitable Definition and a snippet of code opt one for each method. Before that have some brush-up sessions with Java and OOPS concepts.&lt;/p&gt;
 
-&lt;p&gt;This blog is recommended for one who takes a look at selenium basics and proceeds with their test cases or test suits for their websites. When you drive in this thriving &lt;em&gt;world, I&lt;/em&gt; think this should be a better choice.&lt;/p&gt;
+&lt;p&gt;This blog is recommended for one who is ready to know testing ideas with different types of tools and the importance of software testing to increase the quality of the product. I think this should be a better choice to learn different phase in software testing.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;What is What?&lt;/strong&gt; is the basic question for everyone when you kick off on any topic. Well! Before bouncing into ‘Selenium’ and its ‘Methods’, there should be a basic understanding of Selenium and its behavior. So here we go for a definition of selenium.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Selenium :&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Selenium is a framework that is used to test your web application. It was developed by Jason Huggins in 2004. This will be the simplest definition for selenium I guess and helps too.&lt;/p&gt;
+&lt;p&gt;Selenium is a framework that is used to test your web application. It was developed by Jason Huggins in 2004. It also provides a interface which lets you write test scripts in programming languages like Ruby, Java, NodeJS, PHP, Perl, Python, and C#, among others. Selenium is a bunch of tool with different behaviour. Here the list of tools in selenium.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Selenium Integrated Development Environment (IDE)&lt;/li&gt;
+  &lt;li&gt;Selenium Remote Control (RC)&lt;/li&gt;
+  &lt;li&gt;WebDriver&lt;/li&gt;
+  &lt;li&gt;Selenium Grid&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Why Selenium :&lt;/strong&gt;&lt;/p&gt;
 
@@ -30,11 +37,43 @@
 
 &lt;p&gt;When you enter into selenium the ‘Locator’ methods are the heart of selenium. So by scrolling down we will figure out the Locator methods with prompt definition and snip of code to explore the methods appropriately.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Packages in Selenium&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The package mechanism is to enclose the group of Classes and Sub Classes. These packages are used to avoid Conflicts. When you enter into selenium the package import way differ from one browser to another. List of ways to import the package as per browsers are&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chrome&lt;/strong&gt; &lt;strong&gt;:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.openqa.selenium.WebDriver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.openqa.selenium.chrome.ChromeDriver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Firefox :&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.openqa.selenium.WebDriver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.openqa.selenium.firefox.FirefoxDriver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Safari :&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.openqa.selenium.WebDriver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.openqa.selenium.safari.SafariDriver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Opera :&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.openqa.selenium.WebDriver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.openqa.selenium.opera.OperaDriver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;Locators&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Definition&lt;/strong&gt; &lt;/p&gt;
 
-&lt;p&gt;Locators are exactly a command which handles the UI elements to perform &lt;em&gt;actions&lt;/em&gt; on the website. Identifying the appropriate Element is a challenging step to take. Henceforward the Selenium provided with a different type of method to approach.&lt;/p&gt;
+&lt;p&gt;Locators are exactly a command which handles the UI elements to perform actions on the website. Identifying the appropriate Element is a challenging step to take. Henceforward the Selenium provided with a different type of method to approach.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;List of Selenium methods :&lt;/strong&gt;&lt;/p&gt;
 
@@ -130,9 +169,9 @@
 
 &lt;p&gt;&lt;strong&gt;To get Xpath from chrome :&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;To open the Console in the Chrome and refer below given picture to select the XPath from the Chrome.&lt;/p&gt;
+&lt;p&gt;To open the Console in the Chrome by using inspect option and refer below given picture to select the XPath from the Chrome.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/pages/Xpath_selection.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;\images\pages\Xpath_selection.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Selenium Snip :&lt;/strong&gt;&lt;/p&gt;
 
@@ -147,13 +186,18 @@
 
 &lt;p&gt;CSS Selector is quite similar to the XPath locator, but both locators can be used where ever in the script it completely depends on their convenience. CSS Selector may be a bit faster when compared to XPath.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;To get CSS Selector from Chrome&lt;/strong&gt;
-&lt;strong&gt;Selenium Snip :&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To get CSS Selector from Chrome&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\pages\CSSSelector.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Selenium Snip :&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;WebDriver&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;driver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ChromeDriver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;driver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;findElement&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;By&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;cssSelector&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pass&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sendKeys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Abc@gmail.com&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
+&lt;p&gt;This above snip will perform an action by sending the email-id as ‘Abc@gmail.com’ using the CSSSelector.&lt;/p&gt;
 </description>
         <pubDate>05 Aug 2020</pubDate>
         <link>https://brnagaraj.github.io//2020/08/05/Glimpse-about-Selenium-Testing/</link>
@@ -172,21 +216,21 @@
             <title>About</title>
             <description>&lt;p&gt;Hi! I’m &lt;strong&gt;Nagaraj BR,&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;I’m employed as a Test Engineer in the PLINTRON Mobility Solutions for the past 1.5+ years, based in Chennai. Where I deal with Web application testing i.e Functional Testing, API Testing, User Interface Testing with Responsiveness, and Mobile App Testing.&lt;/p&gt;
+&lt;p&gt;I’m employed as a Test Engineer in the PLINTRON Mobility Solutions for the past 1.5+ years, based in Chennai. I deal with Web application testing i.e Functional Testing, API Testing, User Interface Testing with Responsiveness, and Mobile App Testing.&lt;/p&gt;
 
-&lt;p&gt;I exhilarate to learn and update myself in the domain where I work.I decide to record all my gained and gaining knowledge in Software Testing on another hand to spread the same to others in simplest form as much as I can.&lt;/p&gt;
+&lt;p&gt;I exhilarate to learn and update myself in the domain where I work.I decide to record all my gained and gaining knowledge in Software Testing on other hand to spread the same to others in simplest form as much as I can.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;‘Tell me and I forget. Teach me and I remember. Involve me and I learn.’ –Benjamin Franklin&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Above mentioned quote strongly preaches that belief in Learning moreover Working on the same which we learned only makes a man as Savvy.&lt;/p&gt;
+&lt;p&gt;Above mentioned quote strongly preach that belief in Learning moreover Working on the same which we learned only makes a man as Savvy.&lt;/p&gt;
 
 &lt;p&gt;Stay Savvy!&lt;/p&gt;
 
 &lt;p&gt;Happy Learning!&lt;/p&gt;
 </description>
-            <link>https://brnagaraj.github.io//about.html</link>
+            <link>https://brnagaraj.github.io//_pages/about/</link>
           </item>
         
       

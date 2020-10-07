@@ -8,12 +8,11 @@
 theme_version: 1.0.4
 
 # Site settingss
-title:              Software Testing | Selenium
+title:              Software Testing Thoughts & Stories
 logo:               # Logo image URL
-description:        Thoughts, Stories and Testing Ideas
+description:        Testing Ideas
 baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'https://brnagaraj.github.io/' # The base hostname & protocol for your site
-facebook:          ''
 
 markdown:  kramdown
 permalink: pretty
@@ -43,13 +42,13 @@ defaults:
   - scope:
       path: '_pages'
     values:
-      permalink: /:basename:output_ext
+      
 
 # Authors
 authors:
   Nagaraj:
     name:     Nagaraj BR
-    bio:      Author of this blog & Software Development Tester
+    bio:      Author of this blog & Software Test Engineer
     gravatar: 
     email:    nagaraj_br@outlook.com
 
