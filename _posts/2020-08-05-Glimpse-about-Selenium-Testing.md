@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Snoop into Selenium
-author: Nagaraj
-tags: [testing, automation, selenium]
+title: 1. Snoop into Selenium
+author: Nagaraj BR
+
 image: '/images/posts/1-1.jpg'
 ---
 

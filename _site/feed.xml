@@ -5,13 +5,13 @@
     <description>Testing Ideas</description>
     <link>https://brnagaraj.github.io//</link>
     <atom:link href="https://brnagaraj.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Oct 2020 23:01:44 +0530</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2020 23:01:44 +0530</lastBuildDate>
+    <pubDate>Sun, 29 Nov 2020 21:27:57 +0530</pubDate>
+    <lastBuildDate>Sun, 29 Nov 2020 21:27:57 +0530</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
 
     
       <item>
-        <title>Snoop into Selenium</title>
+        <title>1. Snoop into Selenium</title>
         <description>&lt;p&gt;Hello guys&lt;em&gt;,&lt;/em&gt; are you finding how to create a testing script to test your website&lt;em&gt;.&lt;/em&gt; If yes, you landed a perfect page. When it comes to testing selenium plays the Lead role as well. Here we are going to explore the basic methods in selenium with a suitable Definition and a snippet of code opt one for each method. Before that have some brush-up sessions with Java and OOPS concepts.&lt;/p&gt;
 
 &lt;p&gt;This blog is recommended for one who is ready to know testing ideas with different types of tools and the importance of software testing to increase the quality of the product. I think this should be a better choice to learn different phase in software testing.&lt;/p&gt;
@@ -233,12 +233,6 @@
             <link>https://brnagaraj.github.io//about.html</link>
           </item>
         
-      
-    
-      
-    
-      
-    
       
     
       
