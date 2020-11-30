@@ -52,4 +52,6 @@ authors:
     bio:      Author of this blog & Software Test Engineer
     email:    nagaraj_br@outlook.com
 
-    
+
+layout: default
+comments: true
